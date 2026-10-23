@@ -40,13 +40,13 @@ CSV export contains practice totals and quiz grades; it is **not a complete back
 
 ## TestFlight
 
-The App Store Connect record is **Noah's Trailhead**, app ID `6826335583`, bundle ID `com.hayden.trailhead`, under Ryan Hayden's personal team. Version and build numbers are set in `project.yml`; increment the build number before each new upload and regenerate the Xcode project.
+The App Store Connect record is **Noah's Trailhead**, app ID `6826335583`, bundle ID `com.hayden.trailhead`, under Ryan Hayden's personal team. The internal **Family testing** group has automatic distribution enabled. Version 1.0, build 1 was successfully uploaded on October 23, 2026 using Xcode 27.1. Version and build numbers are set in `project.yml`; increment the build number before each new upload and regenerate the Xcode project.
 
-`TestFlightExport.plist` uploads only for internal TestFlight testing, not public App Store distribution. Build and upload using the signed-in Xcode developer account:
+`TestFlightExport.plist` uploads only for internal TestFlight testing, not public App Store distribution. Use an Apple-supported release or release candidate of Xcode. The supported Xcode 27.1 is installed at `/Applications/Xcode.app`; the older `/Applications/Xcode-beta.app` cannot submit this build. The following commands select the supported version for this task without changing the Mac's global developer-tool selection:
 
 ```sh
-xcodebuild -project Trailhead.xcodeproj -scheme Trailhead -configuration Release -destination 'generic/platform=iOS' -archivePath artifacts/Trailhead-TestFlight.xcarchive -allowProvisioningUpdates archive
-xcodebuild -exportArchive -archivePath artifacts/Trailhead-TestFlight.xcarchive -exportOptionsPlist TestFlightExport.plist -exportPath artifacts/TestFlight -allowProvisioningUpdates
+DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer xcodebuild -project Trailhead.xcodeproj -scheme Trailhead -configuration Release -destination 'generic/platform=iOS' -archivePath artifacts/Trailhead-TestFlight.xcarchive -allowProvisioningUpdates archive
+DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer xcodebuild -exportArchive -archivePath artifacts/Trailhead-TestFlight.xcarchive -exportOptionsPlist TestFlightExport.plist -exportPath artifacts/TestFlight -allowProvisioningUpdates
 ```
 
 Apple processes uploaded builds before they appear for testing. TestFlight builds expire 90 days after upload; upload a fresh build to continue testing. Install updates over the existing app to retain local progress.
