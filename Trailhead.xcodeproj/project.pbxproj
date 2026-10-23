@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DD48C2A47EB587BB4D104C /* TrailheadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D216FC7E4AD4C27E78ACEC /* TrailheadTests.swift */; };
+		0693976B6E39C85CBDF42665 /* QuizViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BEEB891865CF2E347C88B0 /* QuizViews.swift */; };
+		0A4677AE82A2C9018FE65472 /* PracticeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A0EC44A95ECE6D3AEF17A /* PracticeViews.swift */; };
+		10B93DCC3CB37D2B198DC08D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456A0AACFBE91F779215405B /* Store.swift */; };
+		3EB63A81047E89CDD3D0E8B1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE15FBFA9AAAAC5C31B20E4F /* Models.swift */; };
+		5C0E3D76ED2B8955525B4B87 /* TrailheadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6516DDA586944733500FAF /* TrailheadApp.swift */; };
+		934ADB2834D548E1B07EC9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C87791497A68C289B1A9CB /* Assets.xcassets */; };
+		93FBDE6E43820E8798DD8DD2 /* ParentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552665ECAA226D9DD834A15 /* ParentViews.swift */; };
+		AD7E94E88333901D5B8818DF /* TrailheadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415078B4D5A7943AC9FE07FB /* TrailheadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A016AA0C8DE530CD2635083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 726CFB058F577093E4150802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 201A370A75A68A542AC57044;
+			remoteInfo = Trailhead;
+		};
+		B8889EBC9153D419B88B71B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 726CFB058F577093E4150802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 201A370A75A68A542AC57044;
+			remoteInfo = Trailhead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		269DF0EA6F86F8568C66D11B /* TrailheadTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TrailheadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		415078B4D5A7943AC9FE07FB /* TrailheadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailheadUITests.swift; sourceTree = "<group>"; };
+		456A0AACFBE91F779215405B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		62D216FC7E4AD4C27E78ACEC /* TrailheadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailheadTests.swift; sourceTree = "<group>"; };
+		7AE9FA24C94B74CA812F7E58 /* TrailheadUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TrailheadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6516DDA586944733500FAF /* TrailheadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailheadApp.swift; sourceTree = "<group>"; };
+		8552665ECAA226D9DD834A15 /* ParentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViews.swift; sourceTree = "<group>"; };
+		91AA8F6EFCE45FF5FC858CD2 /* Trailhead.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Trailhead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BEEB891865CF2E347C88B0 /* QuizViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViews.swift; sourceTree = "<group>"; };
+		9D8A0EC44A95ECE6D3AEF17A /* PracticeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViews.swift; sourceTree = "<group>"; };
+		C1C87791497A68C289B1A9CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE15FBFA9AAAAC5C31B20E4F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		008861B6F947C60F444BD844 = {
+			isa = PBXGroup;
+			children = (
+				34574088652ED3A4B1575C24 /* Tests */,
+				ECD004F27A8A25C40E2F7F91 /* Trailhead */,
+				A0556CE87BC3F369B3609A05 /* UITests */,
+				7EB62F10039B2455622E91D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34574088652ED3A4B1575C24 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				62D216FC7E4AD4C27E78ACEC /* TrailheadTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		7EB62F10039B2455622E91D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91AA8F6EFCE45FF5FC858CD2 /* Trailhead.app */,
+				269DF0EA6F86F8568C66D11B /* TrailheadTests.xctest */,
+				7AE9FA24C94B74CA812F7E58 /* TrailheadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0556CE87BC3F369B3609A05 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				415078B4D5A7943AC9FE07FB /* TrailheadUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		ECD004F27A8A25C40E2F7F91 /* Trailhead */ = {
+			isa = PBXGroup;
+			children = (
+				C1C87791497A68C289B1A9CB /* Assets.xcassets */,
+				EE15FBFA9AAAAC5C31B20E4F /* Models.swift */,
+				8552665ECAA226D9DD834A15 /* ParentViews.swift */,
+				9D8A0EC44A95ECE6D3AEF17A /* PracticeViews.swift */,
+				92BEEB891865CF2E347C88B0 /* QuizViews.swift */,
+				456A0AACFBE91F779215405B /* Store.swift */,
+				7E6516DDA586944733500FAF /* TrailheadApp.swift */,
+			);
+			path = Trailhead;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00D7C4D968A5E6AAD6845787 /* TrailheadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF6ED7ABF99655F13AEF3AC /* Build configuration list for PBXNativeTarget "TrailheadTests" */;
+			buildPhases = (
+				DD7F3B1DBA6CCC2FEACFB19A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80584995E727ED8560DD8295 /* PBXTargetDependency */,
+			);
+			name = TrailheadTests;
+			packageProductDependencies = (
+			);
+			productName = TrailheadTests;
+			productReference = 269DF0EA6F86F8568C66D11B /* TrailheadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		201A370A75A68A542AC57044 /* Trailhead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BF02638EEC682AE9F35339 /* Build configuration list for PBXNativeTarget "Trailhead" */;
+			buildPhases = (
+				91003EA23B8CF17BC7E3B123 /* Sources */,
+				439F17E8E1F5C7F69CF38EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trailhead;
+			packageProductDependencies = (
+			);
+			productName = Trailhead;
+			productReference = 91AA8F6EFCE45FF5FC858CD2 /* Trailhead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75AC12F1E28649A94C14D5EF /* TrailheadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2565E697CCEECA51820C61 /* Build configuration list for PBXNativeTarget "TrailheadUITests" */;
+			buildPhases = (
+				294A055AC26BE022B0EA047D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830B09ADFF9C94F5ECA1D727 /* PBXTargetDependency */,
+			);
+			name = TrailheadUITests;
+			packageProductDependencies = (
+			);
+			productName = TrailheadUITests;
+			productReference = 7AE9FA24C94B74CA812F7E58 /* TrailheadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		726CFB058F577093E4150802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					00D7C4D968A5E6AAD6845787 = {
+						DevelopmentTeam = R53X844C48;
+						ProvisioningStyle = Automatic;
+					};
+					201A370A75A68A542AC57044 = {
+						DevelopmentTeam = R53X844C48;
+						ProvisioningStyle = Automatic;
+					};
+					75AC12F1E28649A94C14D5EF = {
+						DevelopmentTeam = R53X844C48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 201A370A75A68A542AC57044;
+					};
+				};
+			};
+			buildConfigurationList = 31A3BE6256DF99510919CB55 /* Build configuration list for PBXProject "Trailhead" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 008861B6F947C60F444BD844;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7EB62F10039B2455622E91D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				201A370A75A68A542AC57044 /* Trailhead */,
+				00D7C4D968A5E6AAD6845787 /* TrailheadTests */,
+				75AC12F1E28649A94C14D5EF /* TrailheadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		439F17E8E1F5C7F69CF38EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934ADB2834D548E1B07EC9D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		294A055AC26BE022B0EA047D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7E94E88333901D5B8818DF /* TrailheadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91003EA23B8CF17BC7E3B123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB63A81047E89CDD3D0E8B1 /* Models.swift in Sources */,
+				93FBDE6E43820E8798DD8DD2 /* ParentViews.swift in Sources */,
+				0A4677AE82A2C9018FE65472 /* PracticeViews.swift in Sources */,
+				0693976B6E39C85CBDF42665 /* QuizViews.swift in Sources */,
+				10B93DCC3CB37D2B198DC08D /* Store.swift in Sources */,
+				5C0E3D76ED2B8955525B4B87 /* TrailheadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7F3B1DBA6CCC2FEACFB19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DD48C2A47EB587BB4D104C /* TrailheadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80584995E727ED8560DD8295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 201A370A75A68A542AC57044 /* Trailhead */;
+			targetProxy = B8889EBC9153D419B88B71B3 /* PBXContainerItemProxy */;
+		};
+		830B09ADFF9C94F5ECA1D727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 201A370A75A68A542AC57044 /* Trailhead */;
+			targetProxy = 4A016AA0C8DE530CD2635083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		224BB51A21765ED79DF9DCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Trailhead;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayden.trailhead;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		36877127AB0EB3621D0826D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = R53X844C48;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		43859351E760DF36367F4B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Trailhead;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayden.trailhead;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		4448754F763F0574D72F311E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayden.TrailheadTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trailhead.app/Trailhead";
+			};
+			name = Debug;
+		};
+		5AA800504D91B95992BED7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayden.TrailheadUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trailhead;
+			};
+			name = Release;
+		};
+		67A9BCFAF1E96E89053D58FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = R53X844C48;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		793C24E0920CE16905F96C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayden.TrailheadTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trailhead.app/Trailhead";
+			};
+			name = Release;
+		};
+		A3D8F60EC23D87AE367695FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayden.TrailheadUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trailhead;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08BF02638EEC682AE9F35339 /* Build configuration list for PBXNativeTarget "Trailhead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224BB51A21765ED79DF9DCA6 /* Debug */,
+				43859351E760DF36367F4B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		31A3BE6256DF99510919CB55 /* Build configuration list for PBXProject "Trailhead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36877127AB0EB3621D0826D4 /* Debug */,
+				67A9BCFAF1E96E89053D58FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8D2565E697CCEECA51820C61 /* Build configuration list for PBXNativeTarget "TrailheadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D8F60EC23D87AE367695FC /* Debug */,
+				5AA800504D91B95992BED7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EEF6ED7ABF99655F13AEF3AC /* Build configuration list for PBXNativeTarget "TrailheadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4448754F763F0574D72F311E /* Debug */,
+				793C24E0920CE16905F96C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 726CFB058F577093E4150802 /* Project object */;
+}
